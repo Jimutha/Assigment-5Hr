@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* Header Section */
+.header {
+  background-color: #101010;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+
+.header .logo {
+  max-width: 150px;
+  margin-top: 10px;
+}
+
+/* Top Picks Section */
+.top-picks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.top-picks img {
+  max-width: 100px;
+  border-radius: 10px;
+}
+
+/* About Section */
+.about {
+  background-color: #252525;
+  padding: 40px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Product Section */
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.product {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.order-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.order-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #252525;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #101010;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #333;
+  font-size: 14px;
+}

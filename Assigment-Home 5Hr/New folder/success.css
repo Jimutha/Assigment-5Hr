@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(90deg, #1a1a2e, #16213e);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.success-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.success-box {
+  background: rgba(0, 0, 51, 0.8);
+  padding: 50px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.success-box h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.success-box button {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.success-box button:hover {
+  background-color: #004c99;
+}
